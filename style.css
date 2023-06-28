@@ -1,0 +1,105 @@
+
+ body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: #435B66;
+    overflow: hidden;
+ }
+ 
+ h1 {
+   font-size: 30px;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   margin: 20px 0px 5px 0px;
+ } 
+ 
+  .calculator {
+    background:linear-gradient(#8567cc, #4ec5d4);
+   padding: 20px;
+   height: 470px;
+   border-radius: 5px;
+   margin-top: 30px;
+ }
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 798px) {
+  .calculator {
+    max-width: 100%;
+    
+  }
+} 
+ .screen {
+  width: 340px; 
+  height: 100px; 
+  padding: 4px;
+  background-color: rgb(176, 205, 176);
+  font-size: 30px; 
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.number {
+  background-color: #525FE1;
+ }
+
+ .op {
+  background-color: #F86F03;
+ }
+
+ .number:hover,
+ .op:hover {
+  background-color: #8EAC50;
+ }
+
+ 
+ 
+ .buttons{
+    width: 340px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ 
+ button {
+   height: 60px;
+   width: 80px;
+   margin: 1px;
+   
+ }
+
+
+/* FOOTER */
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 80px 0px 0 0;
+  }
+
+  footer ul {
+    list-style: none;
+    
+  }
+  footer a,
+  footer li{
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding-left: 10px;
+  }
+  
+ 
+
+
+  
+  
+  
+  
+  
+   
